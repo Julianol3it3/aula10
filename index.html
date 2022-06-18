@@ -4,100 +4,32 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Document</title>
+    <title>E-Commerce</title>
 
     <link rel="stylesheet" href="./styles.css" />
     <link rel="stylesheet" href="fontawesome/css/all.min.css" />
     <script src="./js/products.js"></script>
     <script src="./js/utils.js"></script>
+    <script src="./js/cart.js"></script>
+ 
     <script defer src="./js/banner.js"></script>
     <script defer src="./js/products-cards.js"></script>
-
   </head>
   <body>
     <header class="main-header">
-      <strong>e-commerce</strong>
+      <strong><a href="/"> e-commerce </a></strong>
 
       <nav>
-        <a href="#">
-          carrinho
-          <span class="badge">0</span>
+        <a href="/cart.html">
+          <i class="fa-solid fa-cart-shopping"></i>
+          <span id ="cart-badge" class="badge">0</span>
         </a>
       </nav>
     </header>
 
-    <section id="banner-content"  class="banner-container"></section>
+    <section id="banner-content" class="banner-container"></section>
 
-    <section id="products-cards" class="products-containers">
-      <div class="card">
-        <figure>
-          <img src="./images/product-card-a.jpg" alt="product-a" />
-        </figure>
-
-        <div class="info">
-          <header>Product name</header>
-          <div class="detail"></div>
-          <footer>
-            <button class="add">Adicionar</button>
-          </footer>
-        </div>
-      </div>
-      <div class="card">
-        <figure><img src="#" alt="" /></figure>
-
-        <div class="info">
-          <header>Product name</header>
-          <div class="detail"></div>
-          <footer>
-            <button class="add">Adicionar</button>
-          </footer>
-        </div>
-      </div>
-      <div class="card">
-        <figure><img src="#" alt="" /></figure>
-
-        <div class="info">
-          <header>Product name</header>
-          <div class="detail"></div>
-          <footer>
-            <button class="add">Adicionar</button>
-          </footer>
-        </div>
-      </div>
-      <div class="card">
-        <figure><img src="#" alt="" /></figure>
-
-        <div class="info">
-          <header>Product name</header>
-          <div class="detail"></div>
-          <footer>
-            <button class="add">Adicionar</button>
-          </footer>
-        </div>
-      </div>
-      <div class="card">
-        <figure><img src="#" alt="" /></figure>
-
-        <div class="info">
-          <header>Product name</header>
-          <div class="detail"></div>
-          <footer>
-            <button class="add">Adicionar</button>
-          </footer>
-        </div>
-      </div>
-      <div class="card">
-        <figure><img src="#" alt="" /></figure>
-
-        <div class="info">
-          <header>Product name</header>
-          <div class="detail"></div>
-          <footer>
-            <button class="add">Adicionar</button>
-          </footer>
-        </div>
-      </div>
-    </section>
+    <section id="products-cards" class="products-containers"></section>
     <footer>e-comerce example</footer>
   </body>
 </html>
